@@ -59,9 +59,6 @@
 .main-button:visited {
   color: #212121;
 }
-.main-button: {
-  cursor: pointer;
-}
 
 .second-section {
   font-weight: 700;
