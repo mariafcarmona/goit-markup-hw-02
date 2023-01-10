@@ -49,15 +49,12 @@
   text-align: center;
   letter-spacing: 0.06em;
 }
-.main-button:hover {
-  color: #188ce8;
-}
-.main-button:focus {
-  color: #ffffff;
-}
 .main-button:active,
 .main-button:visited {
   color: #212121;
+}
+a {
+  text-decoration: none;
 }
 
 .second-section {
@@ -99,9 +96,6 @@
 .f-section {
   background-color: #2f303a;
 }
-.p-section:hover {
-  color: #188ce8;
-}
 .photo {
   background-color: #ffffff;
   text-align: center;
@@ -113,7 +107,6 @@
 .todo-button {
   background-color: #2196f3;
   color: white;
-  border-color: #2196f3;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -127,15 +120,18 @@
 .p-button {
   background-color: #f5f4fa;
   color: #212121;
-  border-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
 }
+.radius {
+  border-radius: 4px;
+}
 .p-button:hover,
 .p-button:active {
   border-color: #188ce8;
+  color: #757575;
 }
 .portafolio {
   color: #212121;
@@ -154,4 +150,13 @@
 }
 .extra-font {
   font-family: raleway;
+}
+ul {
+  list-style-type: none;
+}
+.none-adress {
+  font-style: normal;
+}
+.pointer {
+  cursor: pointer;
 }

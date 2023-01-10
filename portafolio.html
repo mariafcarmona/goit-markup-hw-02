@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portafolio</title>
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +18,7 @@
       <a class="header-webstudio extra-font" href="#">webstudio</a>
       <nav>
         <ul>
-          <li><a class="black header-info" href="/index.html">estudio</a></li>
+          <li><a class="black header-info" href="./index.html">estudio</a></li>
           <li><a class="blue header-info" href="#">portafolio</a></li>
           <li><a class="black header-info" href="#">contactos</a></li>
         </ul>
@@ -36,19 +36,25 @@
     </header>
     <main>
       <ul>
-        <li><button type="button" class="todo-button">todo</button></li>
-        <li><button type="button" class="p-button">sitios-web</button></li>
-        <li><button type="button" class="p-button">aplicaciones</button></li>
-        <li><button type="button" class="p-button">diseño</button></li>
-        <li><button type="button" class="p-button">marketing</button></li>
+        <li><button type="button" class="todo-button radius">todo</button></li>
+        <li>
+          <button type="button" class="p-button radius">sitios-web</button>
+        </li>
+        <li>
+          <button type="button" class="p-button radius">aplicaciones</button>
+        </li>
+        <li><button type="button" class="p-button radius">diseño</button></li>
+        <li>
+          <button type="button" class="p-button radius">marketing</button>
+        </li>
       </ul>
       <ul>
-        <li>
+        <li class="pointer">
           <img src="./images/empleados.jpg" alt="empleados" width="370" />
           <h2 class="portafolio">tecnoduck</h2>
           <p class="portafolio-descrption">sitio-web</p>
         </li>
-        <li>
+        <li class="pointer">
           <img
             src="./images/basketball.jpg"
             alt="juego basketball"
@@ -56,37 +62,37 @@
           />
           <h2 class="portafolio">juego de nueva orleans vs estrella dorada</h2>
         </li>
-        <li>
+        <li class="pointer">
           <img src="./images/seafood.jpg" alt="marca seafood" width="370" />
           <h2 class="portafolio">restaurante seafood</h2>
           <p class="portafolio-descrption">aplicaciones</p>
         </li>
-        <li>
+        <li class="pointer">
           <img src="./images/audifonos.jpg" alt="audifonos" width="370" />
           <h2 class="portafolio">proyecto prime</h2>
           <p class="portafolio-descrption">aplicaciones</p>
         </li>
-        <li>
+        <li class="pointer">
           <img src="./images/cajas.jpg" alt="doscajas" width="370" />
           <h2 class="portafolio">proyecto cajas</h2>
           <p class="portafolio-descrption">aplicaciones</p>
         </li>
-        <li>
+        <li class="pointer">
           <img src="./images/computador.jpg" alt="computador" width="370" />
           <h2 class="portafolio">la inspiracion no tiene limites</h2>
           <p class="portafolio-descrption">sitio-web</p>
         </li>
-        <li>
+        <li class="pointer">
           <img src="./images/revistas.jpg" alt="revista" width="370" />
           <h2 class="portafolio">edición limitada</h2>
           <p class="portafolio-descrption">diseño</p>
         </li>
-        <li>
+        <li class="pointer">
           <img src="./images/etiqueta.jpg" alt="etiqueta" width="370" />
           <h2 class="portafolio">proyecto lab</h2>
           <p class="portafolio-descrption">marketing</p>
         </li>
-        <li>
+        <li class="pointer">
           <img
             src="./images/tecladoymanos.jpg"
             alt="manos en teclado"
@@ -98,12 +104,12 @@
       </ul>
     </main>
     <footer class="f-section">
+      <a class="header-webstudio extra-font" href="#">webstudio</a>
       <address>
-        <a class="header-webstudio extra-font" href="#">webstudio</a>
         <ul>
           <li>
             <a
-              class="p-section white"
+              class="p-section white none-adress"
               rel="noreferrer noopener"
               href="https://www.google.com/maps/place/Calz.+Ticom%C3%A1n+500,+La+Laguna+Ticoman,+Gustavo+A.+Madero,+07340+Ciudad+de+M%C3%A9xico,+CDMX,+M%C3%A9xico/@19.5102022,-99.1346799,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1f9c66374d1dd:0x72c74207e8767392!8m2!3d19.5102022!4d-99.1324912"
               target="_blank"
@@ -112,12 +118,16 @@
             >
           </li>
           <li>
-            <a class="gray p-section" href="mailto:info@devstudio.com"
+            <a
+              class="gray p-section none-adress"
+              href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="gray p-section" href="tel:+525555296000">+525555296000</a>
+            <a class="gray p-section none-adress" href="tel:+525555296000"
+              >+525555296000</a
+            >
           </li>
         </ul>
       </address>
