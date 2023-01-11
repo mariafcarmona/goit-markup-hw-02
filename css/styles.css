@@ -106,15 +106,16 @@ a {
 }
 .todo-button {
   background-color: #2196f3;
-  color: white;
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
+  border: none;
 }
 .todo-button:hover,
 .todo-button:focus {
-  color: #188ce8;
+  color: white;
 }
 
 .p-button {
@@ -124,14 +125,15 @@ a {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
+  border: none;
 }
 .radius {
   border-radius: 4px;
 }
 .p-button:hover,
 .p-button:active {
-  border-color: #188ce8;
-  color: #757575;
+  background-color: #188ce8;
+  color: white;
 }
 .portafolio {
   color: #212121;
@@ -159,4 +161,13 @@ ul {
 }
 .pointer {
   cursor: pointer;
+}
+.footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.footer:hover,
+.footer:focus {
+  color: #188ce8;
 }
