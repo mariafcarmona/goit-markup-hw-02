@@ -106,7 +106,7 @@ a {
 }
 .todo-button {
   background-color: #2196f3;
-  color: #212121;
+  color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -114,8 +114,10 @@ a {
   border: none;
 }
 .todo-button:hover,
-.todo-button:focus {
-  color: white;
+.todo-button:focus,
+.todo-button:active {
+  color: black;
+  background-color: #75bdf7;
 }
 
 .p-button {
